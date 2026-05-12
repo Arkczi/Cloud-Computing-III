@@ -1,6 +1,6 @@
 # Sklep E-commerce High-Availability na AWS
 
-Projekt zaliczeniowy z przedmiotu [Nazwa Przedmiotu]. Architektura wysokiej dostępności (HA) oparta na WordPress + WooCommerce.
+Projekt zaliczeniowy . Architektura wysokiej dostępności (HA) oparta na WordPress + WooCommerce.
 
 ## 🏗️ Architektura
 Projekt wykorzystuje model infrastruktury jako kodu (IaC) i składa się z:
@@ -21,3 +21,7 @@ Infrastruktura została przetestowana pod kątem awarii:
 1. Po ręcznym zakończeniu (Terminate) jednej instancji EC2, Load Balancer automatycznie przekierował ruch na drugą maszynę.
 2. Auto Scaling Group automatycznie uruchomił nową instancję w miejsce usuniętej.
 3. Dzięki zamontowaniu EFS, wszystkie pliki multimedialne pozostały dostępne na obu instancjach.
+
+## Instalacja
+1. Pobierz plik yaml. Wejdź w AWS na CloudFormation -> stack i utwóz nowego stacka
+2. Pobierz plik kopiazapasowasklepiku i 
