@@ -1,6 +1,6 @@
 # Sklep E-commerce High-Availability na AWS
 
-Projekt zaliczeniowy . Architektura wysokiej dostępności (HA) oparta na WordPress + WooCommerce.
+Projekt zaliczeniowy. Architektura wysokiej dostępności (HA) oparta na WordPress + WooCommerce.
 
 ## 🏗️ Architektura
 Projekt wykorzystuje model infrastruktury jako kodu (IaC) i składa się z:
