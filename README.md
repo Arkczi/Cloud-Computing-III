@@ -14,7 +14,7 @@ Projekt wykorzystuje model infrastruktury jako kodu (IaC) i składa się z:
 1. Zaloguj się do konsoli AWS.
 2. Przejdź do usługi **CloudFormation** i stwórz nowy stos (Stack), wgrywając plik `AWS_ZADANIE.yaml`.
 3. Po zakończeniu instalacji przejdź pod adres URL podany w zakładce **Outputs**.
-4. Wykonaj migrację przy użyciu wtyczki all-in-one-wp-migration-6.7 dołączonej w repozytorium (ta wersja omija limit 2kb na backup) po zainstalowaniu wtyczki wgraj plik kopiazapasowasklepu.wpress (Plik trzeba wypakować) pobrany ze strony https://drive.google.com/drive/folders/1sAQ_UMwJbREhYJVEzBj0cY08JbySklTN?usp=drive_link
+4. Wykonaj migrację przy użyciu wtyczki all-in-one-wp-migration-6.7 dołączonej w repozytorium (ta wersja omija limit 2kb na backup) po zainstalowaniu wtyczki wgraj plik kopiazapasowasklepiku.wpress (Plik trzeba wypakować) pobrany ze strony https://drive.google.com/drive/folders/1sAQ_UMwJbREhYJVEzBj0cY08JbySklTN?usp=drive_link
 
 ## 🛠️ Testy HA (Wysokiej Dostępności)
 Infrastruktura została przetestowana pod kątem awarii:
